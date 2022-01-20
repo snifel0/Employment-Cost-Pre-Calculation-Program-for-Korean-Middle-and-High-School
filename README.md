@@ -22,4 +22,6 @@
 6. 인사기록 저장하면 실행파일 폴더에 .pickle 파일로 인사기록이 생성 됨.
 추후 인사기록 불러오기 버튼을 통해 기존 인사기록을 불러와서 작업할 수 있음.
 
+7. 수당 관련 config 파일은 C:\Users\{사용자명}\.EmploymentCostPreCalculationProgramForSchool에 저장됩니다. 추후 작업연도가 넘어갈 시 해당 파일에 연도별 값을 하여 작업이 가능합니다.
+
 우측 Release에서 실행파일을 다운로드 받을 수 있습니다.
