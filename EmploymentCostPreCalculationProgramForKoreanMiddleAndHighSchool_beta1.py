@@ -83,7 +83,7 @@ if __name__ == "__main__":
             item =  event.widget.item(selection[0])
             record = item['values']
             data = [employee for employee in employeelist if employee["id"] == record[0]][0]
-            employee_id_entry.delete(1.0,END)
+            employee_id_entry.delete(0,END)
             employee_id_entry.insert(0,data["id"])
             employee_name_entry.delete(0,END)
             employee_name_entry.insert(0,data["성명"])
